@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&family=Oswald&family=Poppins:wght@500&family=Radio+Canada:wght@500&family=Roboto:wght@300&display=swap');
+
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: url(midia/back-black.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    min-width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Kanit', sans-serif;
+    font-size: 20px;
+    
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+
+}
+main.container{
+    background: rgb(99,99,102);
+    background: linear-gradient(90deg, rgb(115, 115, 129) 0%, rgb(127, 144, 153) 47%, rgb(95, 95, 110) 90%);
+    max-width: 400px;
+    height: 70vh;
+    padding: 2rem;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    
+}
+.container h2{
+    margin-top: 10px;
+    margin-bottom: 70px;
+    padding: 10px;
+    text-decoration: underline;
+    font-size: 40px;
+}
+input{
+    padding: 6px;
+    margin: 6px;
+    border-radius: 6px;
+    outline: none;
+    
+
+    
+}
+
+main h2{
+    font-weight: 600;
+    margin-bottom: 2rem;
+    position: relative;
+}
+.manter{
+    
+    font-size: 16px;
+    
+
+    
+}
+
+
+button{
+    display: flex;
+    justify-content: center; 
+    margin: 49px;
+    margin-top: 40px;
+    border: solid #14082c;
+    border-radius: 8px;
+    padding: 5px;
+    cursor: pointer;
+    font-family: 'Kanit', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+ 
+    
+    
+}
+
+button:hover{
+    background: rgb(12,12,13);
+    background: linear-gradient(90deg, rgba(12,12,13,1) 0%, rgba(56,60,62,1) 47%, rgba(12,12,13,1) 90%);
+    color: #fff;
+}
+
+.others{
+    
+    display: inline;
+    font-size: 14px; 
+}
+
+.cadastre{
+    padding-right: 15px;
+}
+
+.others a:hover{
+    color: rgb(161, 26, 26);
+}

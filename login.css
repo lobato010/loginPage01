@@ -26,10 +26,11 @@ form{
 
 }
 main.container{
+    display: inline;
     background: rgb(99,99,102);
     background: linear-gradient(90deg, rgb(115, 115, 129) 0%, rgb(127, 144, 153) 47%, rgb(95, 95, 110) 90%);
     max-width: 400px;
-    height: 70vh;
+    height: 500px;
     padding: 2rem;
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
     border-radius: 15px;
@@ -90,9 +91,13 @@ button:hover{
 }
 
 .others{
-    
-    display: inline;
-    font-size: 14px; 
+    position: relative;
+    display: flex;
+    font-size: 15px;
+}
+
+.others a{
+    color: #14082c;
 }
 
 .cadastre{
